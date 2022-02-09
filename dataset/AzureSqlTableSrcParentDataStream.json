@@ -1,0 +1,137 @@
+{
+	"name": "AzureSqlTableSrcParentDataStream",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SOURCE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "xMediaGroup",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MEDIATYPE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "xMediaChannel",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AgencyChannelName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CampaignName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Account",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LOB",
+				"type": "nvarchar"
+			},
+			{
+				"name": "BU",
+				"type": "nvarchar"
+			},
+			{
+				"name": "PARENTCAMPAIGNNAME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SUBCAMPAIGNNAME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "COUNTRYCODE",
+				"type": "nvarchar"
+			},
+			{
+				"name": "COUNTRYNAME",
+				"type": "nvarchar"
+			},
+			{
+				"name": "REGION",
+				"type": "nvarchar"
+			},
+			{
+				"name": "xCampaignQuarter",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SearchKeywordType",
+				"type": "nvarchar"
+			},
+			{
+				"name": "SearchMatchType",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EmeaRegion",
+				"type": "nvarchar"
+			},
+			{
+				"name": "EmeaSubRegion",
+				"type": "nvarchar"
+			},
+			{
+				"name": "xAccountCurrency",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Compliant",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AgencyOwnerMarket",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CampaignScale",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CampaignObjective",
+				"type": "nvarchar"
+			},
+			{
+				"name": "MediaBriefName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Impression",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Click",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "View",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Swipe rate",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SRCParentDataStream"
+		}
+	}
+}
